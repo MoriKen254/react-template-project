@@ -42,6 +42,8 @@ $ ./create_new_projects.sh
 
 - すると、`app/src/<project_name>` にスケルトンができあがる。
 
+### 設定ファイルの調整
+
 - `vite.config.ts` を以下のように修正する。
 
 ```ts
