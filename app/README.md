@@ -36,7 +36,7 @@ https://shinke1987.net/?p=1123
 - Docker コンテナに入ったら、新規プロジェクトを作成する。
 
 ```bash
-$ cd ~/scripts
+$ cd ~/Project/scripts
 $ ./create_new_projects.sh
 ```
 
