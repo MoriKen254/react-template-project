@@ -68,8 +68,8 @@ export default defineConfig({
 
 以下のファイルを削除する。
 
-- src/assets/react.svg
-- src/App.css
+- src/<project_name>/src/assets/react.svg
+- src/<project_name>/src/App.css
 
 以下のファイルのコードの中身を削除する。（ファイルは残す。）
 
@@ -78,6 +78,9 @@ export default defineConfig({
 
 ### 実行
 
+- Docker コンテナの中から下記コマンドを実行する。
+
 ```bash
+$ cd ~/Project/src/react-template
 $ npm run dev
 ```

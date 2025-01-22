@@ -25,7 +25,13 @@ cp ../scripts/tsconfig.app_template.json $APP_NAME/tsconfig.app.json
 
 # 必要なライブラリ等をインストール
 cd $APP_NAME
-npm install --omit=dev
- 
+# 本番用
+# npm install --omit=dev
+# 開発用
+npm install
+
 # インストールされたものを確認する。
-npm ls --omit=dev
+# 本番用
+# npm ls --omit=dev
+# 開発用
+npm ls
